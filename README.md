@@ -1,17 +1,13 @@
-# animation
+# Projects
 
-A new Flutter project.
+A collection of small, independent projects. Each one lives in its own
+top-level directory with its own dependencies and its own README — there's
+no shared build tooling between them, so clone the whole repo but build
+each project from inside its own folder.
 
-## Getting Started
+| Project | Description |
+|---|---|
+| [`flutter_arena/`](flutter_arena/) | A real-time 3D Flutter game — Dash chases the Flutter logo — built on [flutter_scene](https://github.com/bdero/flutter_scene). |
+| [`flutter_vfx/`](flutter_vfx/) | A particle systems & VFX playground — crystalline shard bursts, glassy mesh shatter, drifting wisps, and a double-helix ribbon trail — built on [flutter_scene](https://github.com/bdero/flutter_scene). |
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+More projects will be added as their own top-level directories over time.
